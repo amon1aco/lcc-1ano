@@ -1,0 +1,20 @@
+/// funcguiao4.h
+void concatenar(STACK *s, STACK *s_aux);
+void inverte_s(STACK *s_origem, STACK *s);
+char *concatstr(char *s1, char *s2);
+void arr_vazio(data_type elem, STACK* array);
+char *concat_geral(char *str, data_type x);
+void virgula(STACK *s);
+void white_space(STACK *s);
+void new_lines(STACK *s);
+void multiplica_arr(STACK *s, long x);
+void multiplica_str(char *str, long x);
+void init_arr(STACK *s, STACK *array);
+void remove_h_arr(STACK *s, STACK *array);
+void sub_arr(STACK *s, char *str_menor, char *str_maior);
+void sub_str(long x, char *str, STACK *s);
+void procura_arr(long val, STACK * array, STACK * stack);
+long sub_str2(char *str_menor, char *str_maior);
+void remove_men_arr(long val, STACK *arr);
+STACK *remove_mai_arr(long val, STACK *arr);
+void t_token(STACK *s);
